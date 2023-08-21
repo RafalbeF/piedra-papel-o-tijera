@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional if/else if/else/Jugador elije</title>
+
+    <script>
+        //variable jugador comienza eligiendo 0
+        let jugador = 0
+
+        //variable pc comienza eligiendo 2
+        let pc = 2
+
+        //jugador(la variable), es igual a lo que este en el prompt
+        jugador = prompt("Presiona: 1 para piedra, 2 para papel, 3 para tijera")
+
+        //Condicional if, else if, else. El jugador elige entre 1, 2 o 3 y se ejecuta uno u otro alert dependiendo del "if" o, el "else if" o, el "else" que se cumpla como condicion.
+        if (jugador ==1){
+            alert("Elegiste piedra")
+        } else if (jugador ==2) {
+            alert("Elegiste papel")
+        } else if (jugador ==3) {
+            alert("Elegiste tijera")
+        } else {
+            alert("Elegiste mal")
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Piedra, papel o tijera</h1>
+    
+</body>
+</html>
